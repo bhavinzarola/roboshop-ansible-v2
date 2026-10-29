@@ -72,6 +72,7 @@
       ansible.builtin.copy:
         src: nginx.conf
         dest: /etc/nginx/nginx.conf
+
     - name: Configuring NodeJs repos
       ansible.builtin.shell: curl -sL https://rpm.nodesource.com/setup_20.x | bash
 
